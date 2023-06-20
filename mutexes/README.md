@@ -1,0 +1,1 @@
+This crate generates 1000 random strings into a vec (ie. a work queue), then spawns 10 threads that use a mutex to read from the vec safely.
